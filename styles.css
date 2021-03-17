@@ -33,6 +33,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__nav .menu__bar .menu__bar--logo {
@@ -42,7 +45,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 100px;
+  margin: 0 50px;
 }
 
 .header__nav .menu__bar .menu__bar--logo span {
@@ -63,7 +66,7 @@ header {
 .header__nav .menu__bar ul.menu__bar--nav a li {
   list-style: none;
   color: white;
-  margin: 30px;
+  margin: 1vw;
   padding: 15px;
   font-weight: bold;
 }
@@ -263,6 +266,8 @@ header {
 .main__content .main__content--beginner {
   border: 1px dotted gray;
   border-right: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   position: relative;
 }
 
@@ -296,6 +301,9 @@ header {
 
 .main__content .main__content--beginner:hover {
   background-color: white;
+  margin-top: -36px;
+  margin-bottom: 36px;
+  border-right: 1px dotted gray;
 }
 
 .main__content .main__content--beginner:hover .new {
@@ -317,6 +325,8 @@ header {
   border: 1px dotted gray;
   border-right: none;
   position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .main__content .main__content--advanced .new {
@@ -349,6 +359,8 @@ header {
 
 .main__content .main__content--advanced:hover {
   background-color: white;
+  margin-top: -36px;
+  margin-bottom: 36px;
 }
 
 .main__content .main__content--advanced:hover .new {
@@ -369,6 +381,8 @@ header {
 .main__content .main__content--master {
   border: 1px dotted gray;
   position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .main__content .main__content--master .new {
@@ -401,6 +415,8 @@ header {
 
 .main__content .main__content--master:hover {
   background-color: white;
+  margin-top: -36px;
+  margin-bottom: 36px;
 }
 
 .main__content .main__content--master:hover .new {
@@ -420,6 +436,8 @@ header {
 
 .main__content .main__content--insane {
   border: 1px dotted gray;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   position: relative;
   border-left: none;
 }
@@ -454,6 +472,9 @@ header {
 
 .main__content .main__content--insane:hover {
   background-color: white;
+  margin-top: -36px;
+  margin-bottom: 36px;
+  border-left: 1px dotted gray;
 }
 
 .main__content .main__content--insane:hover .new {

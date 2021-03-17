@@ -21,6 +21,7 @@ header {
 
     .menu__bar {
         display: flex;
+        justify-content: center;
 
         .menu__bar--logo {
             display: flex;
@@ -32,7 +33,7 @@ header {
 
             }
 
-            margin: 0 100px;
+            margin: 0 50px;
         }
 
         ul.menu__bar--nav {
@@ -44,7 +45,7 @@ header {
                 li {
                     list-style: none;
                     color: white;
-                    margin: 30px;
+                    margin: 1vw;
                     padding: 15px;
                     font-weight: bold;
 
@@ -228,7 +229,7 @@ header {
     .main__content--beginner {
         border: 1px dotted gray;
         border-right: none;
-
+        transition: 0.4s;
         position: relative;
 
         .new {
@@ -254,10 +255,11 @@ header {
         }
 
 
-
         &:hover {
             background-color: white;
-
+            margin-top: -36px;
+            margin-bottom: 36px;
+            border-right: 1px dotted gray;
 
         }
 
@@ -282,6 +284,7 @@ header {
         border-right: none;
 
         position: relative;
+        transition: 0.4s;
 
         .new {
             position: absolute;
@@ -306,12 +309,12 @@ header {
         }
 
 
-
         &:hover {
             background-color: white;
+            margin-top: -36px;
+            margin-bottom: 36px;
 
         }
-
         &:hover .new {
             display: block;
             align-items: center;
@@ -332,6 +335,7 @@ header {
 
 
         position: relative;
+        transition: 0.4s;
 
         .new {
             position: absolute;
@@ -356,9 +360,10 @@ header {
         }
 
 
-
         &:hover {
             background-color: white;
+            margin-top: -36px;
+            margin-bottom: 36px;
 
         }
 
@@ -379,7 +384,8 @@ header {
 
     .main__content--insane {
         border: 1px dotted gray;
-
+        transition: 0.4s;
+        ;
 
         position: relative;
 
@@ -409,7 +415,9 @@ header {
 
         &:hover {
             background-color: white;
-
+            margin-top: -36px;
+            margin-bottom: 36px;
+            border-left: 1px dotted gray;
 
         }
 
@@ -421,6 +429,8 @@ header {
         &:hover h4 {
             display: block;
         }
+
+
 
 
         border-left: none;
@@ -807,9 +817,11 @@ header {
 
         span {
             padding: 0px 10px;
-            .fa{
+
+            .fa {
                 font-size: 24px;
             }
+
             .fa-google {
                 color: red;
             }
@@ -825,7 +837,8 @@ header {
             .fa-facebook {
                 color: blue;
             }
-            .fa-twitter{
+
+            .fa-twitter {
                 color: cyan;
             }
         }
