@@ -311,7 +311,11 @@ header {
 }
 
 .main__content .main__content--beginner:hover .price {
-  margin-top: 57px;
+  margin-top: 50px;
+}
+
+.main__content .title {
+  height: 120px;
 }
 
 .main__content .main__content--advanced {
@@ -326,6 +330,7 @@ header {
 .main__content .main__content--advanced:hover {
   background-color: white;
   height: 100%;
+  border-right: 1px dotted gray;
 }
 
 .main__content .main__content--advanced:hover .new {
@@ -340,7 +345,7 @@ header {
 }
 
 .main__content .main__content--advanced:hover .price {
-  margin-top: 57px;
+  margin-top: 50px;
 }
 
 .main__content .main__content--master {
@@ -348,7 +353,7 @@ header {
   position: relative;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  height: 100%;
+  height: 800px;
 }
 
 .main__content .main__content--master .new {
@@ -378,11 +383,16 @@ header {
 
 .main__content .main__content--master:hover {
   background-color: white;
+  border-left: 1px dotted gray;
+  height: 100%;
+}
+
+.main__content .main__content--master:hover .price {
+  margin-top: 50px;
 }
 
 .main__content .main__content--master .price {
   background-color: #83bce9;
-  margin-top: 22px;
 }
 
 .main__content .main__content--master .order {
@@ -439,7 +449,7 @@ header {
 }
 
 .main__content .main__content--insane:hover .price {
-  margin-top: 57px;
+  margin-top: 50px;
 }
 
 .main__content .main__content--insane .price {
