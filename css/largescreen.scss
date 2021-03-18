@@ -1,0 +1,53 @@
+@media (min-width:992px) and (max-width:1200px) {
+    .menu__bar {
+
+        ul.menu__bar--nav a li {
+            padding: 5px !important;
+            margin: 2px !important;
+            margin-top: 10px !important;
+            font-size: 1rem;
+        }
+
+        .menu__bar--logo {
+            padding: 5px !important;
+            margin: 2px !important;
+            margin-top: 10px !important;
+            font-size: 1rem;
+            margin-right: 30px !important;
+        }
+
+        .menu__bar--font {
+            padding: 5px !important;
+            margin: 2px !important;
+            margin-top: 10px !important;
+            font-size: 1rem;
+            margin-left: 30px !important;
+        }
+
+
+    }
+
+
+    .main__content {
+        height: 1000px;
+
+        .main__content--beginner {
+            height: 900px
+        }
+
+        .main__content--advanced {
+            height: 900px
+        }
+
+        .main__content--master {
+            height: 900px
+        }
+
+        .main__content--insane {
+            height: 900px
+        }
+
+
+    }
+}
+

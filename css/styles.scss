@@ -95,7 +95,7 @@ header {
         justify-content: center;
 
         span {
-            font-size: 70px;
+            font-size: 5rem;
             color: white;
             padding: 0 10px;
             font-weight: lighter;
@@ -239,7 +239,7 @@ header {
         margin: 20px 0px;
 
         i {
-            font-size: 10px;
+            font-size: 0.625rem;
         }
 
         &:hover {
@@ -257,7 +257,7 @@ header {
 
     h1 {
         font-weight: lighter;
-        font-size: 50px;
+        font-size: 3.125rem
     }
 
     .price {
@@ -322,8 +322,6 @@ header {
 
     .main__content--master {
         border: 1px dotted gray;
-
-
         position: relative;
         height: 800px;
 
@@ -711,8 +709,8 @@ header {
                         height: 72px;
                         border-radius: 100%;
                         background-color: gray;
-                        flex-basis: 110px;
-                        padding: 0px 10px;
+                        flex-basis: 72px;
+                        padding: 0px 30px;
                     }
 
                     .detail--post {
@@ -819,7 +817,7 @@ header {
             padding: 0px 10px;
 
             .fa {
-                font-size: 24px;
+                font-size: 1.5rem;
             }
 
             .fa-google {
@@ -844,3 +842,5 @@ header {
         }
     }
 }
+@import "largescreen";
+@import "mediumscreen"

@@ -123,7 +123,7 @@ header {
 }
 
 .description .description__title span {
-  font-size: 70px;
+  font-size: 5rem;
   color: white;
   padding: 0 10px;
   font-weight: lighter;
@@ -279,7 +279,7 @@ header {
 }
 
 .main__content button i {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .main__content button:hover {
@@ -294,7 +294,7 @@ header {
 
 .main__content h1 {
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .main__content .price {
@@ -793,9 +793,9 @@ header {
   height: 72px;
   border-radius: 100%;
   background-color: gray;
-  -ms-flex-preferred-size: 110px;
-      flex-basis: 110px;
-  padding: 0px 10px;
+  -ms-flex-preferred-size: 72px;
+      flex-basis: 72px;
+  padding: 0px 30px;
 }
 
 .footer .footer__content .footer__content--col2 .posts .post1 .detail--post {
@@ -919,7 +919,7 @@ header {
 }
 
 .footer__social .media-social span .fa {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .footer__social .media-social span .fa-google {
@@ -940,5 +940,200 @@ header {
 
 .footer__social .media-social span .fa-twitter {
   color: cyan;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu__bar ul.menu__bar--nav a li {
+    padding: 5px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    font-size: 1rem;
+  }
+  .menu__bar .menu__bar--logo {
+    padding: 5px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    font-size: 1rem;
+    margin-right: 30px !important;
+  }
+  .menu__bar .menu__bar--font {
+    padding: 5px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    font-size: 1rem;
+    margin-left: 30px !important;
+  }
+  .main__content {
+    height: 1000px;
+  }
+  .main__content .main__content--beginner {
+    height: 900px;
+  }
+  .main__content .main__content--advanced {
+    height: 900px;
+  }
+  .main__content .main__content--master {
+    height: 900px;
+  }
+  .main__content .main__content--insane {
+    height: 900px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .menu__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .menu__bar ul.menu__bar--nav a li {
+    padding: 5px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    font-size: 1rem;
+  }
+  .menu__bar .menu__bar--logo {
+    padding: 5px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    font-size: 1rem;
+    margin-right: 20px !important;
+    width: 300px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .menu__bar .menu__bar--font {
+    padding: 5px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    font-size: 1rem;
+    margin-left: 20px !important;
+    width: 300px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .menu__bar .menu__bar--nav {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .description__title span {
+    font-size: 3rem !important;
+  }
+  .main__content {
+    height: 1200px;
+  }
+  .main__content .main__content--beginner {
+    height: 1100px;
+    width: 200px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .main__content .main__content--advanced {
+    height: 1100px;
+    width: 200px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .main__content .main__content--master {
+    height: 1100px;
+    width: 200px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .main__content .main__content--insane {
+    height: 1100px;
+    width: 200px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .main__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+  }
+  .main__content .main__content--beginner {
+    width: 300px;
+    height: 800px;
+    border: 1px solid gray;
+  }
+  .main__content .main__content--advanced {
+    width: 300px;
+    height: 800px;
+    border: 1px solid gray;
+  }
+  .main__content .main__content--master {
+    width: 300px;
+    height: 800px;
+    border: 1px solid gray;
+  }
+  .main__content .main__content--insane {
+    width: 300px;
+    height: 800px;
+    border: 1px solid gray;
+  }
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .footer__content .footer__content--col1 {
+    -ms-flex-preferred-size: 400px !important;
+        flex-basis: 400px !important;
+  }
+  .footer__content .footer__content--col2 {
+    -ms-flex-preferred-size: 400px !important;
+        flex-basis: 400px !important;
+  }
+  .footer__content .footer__content--col3 {
+    margin-top: 50px !important;
+    -ms-flex-preferred-size: 400px !important;
+        flex-basis: 400px !important;
+  }
+  .footer__content .footer__content--col4 {
+    margin-top: 50px !important;
+    -ms-flex-preferred-size: 400px !important;
+        flex-basis: 400px !important;
+  }
+  .footer__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .footer__social .copyright,
+  .footer__social .contact,
+  .footer__social .media-social {
+    padding: 10px 0px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
