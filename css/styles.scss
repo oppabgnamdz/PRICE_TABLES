@@ -76,6 +76,12 @@ header {
             .fa-american-sign-language-interpreting {
                 color: red;
             }
+
+            .number--item {
+                background-color: #00bcd4;
+                padding: 2px 20px;
+                clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%, 0 50%);
+            }
         }
     }
 }
@@ -188,7 +194,11 @@ header {
 
 .indicator {
     margin-top: 100px !important;
-    height: 300px
+    height: 300px;
+
+    .active {
+        background-color: #00bcd4;
+    }
 }
 
 .item {
@@ -199,7 +209,6 @@ header {
     border-radius: 50%;
     border: 1px solid white;
 
-
     &:hover {
         background-color: #00bcd4
     }
@@ -207,7 +216,7 @@ header {
 
 .main__content {
     display: flex;
-    background-color: white;
+    // background-color:#f0f3f2;
     text-align: center;
     padding: 0px;
     margin-top: 100px;
@@ -258,41 +267,36 @@ header {
     .main__content--beginner {
         border: 1px dotted gray;
         border-right: none;
-        transition: 0.4s;
         position: relative;
         height: 800px;
 
+        .center {
+            flex-basis: 550px;
+        }
 
         &:hover {
             background-color: white;
-
             border-right: 1px dotted gray;
-            height: 100%;
-
+            height: 100%
         }
-
-
-
         .price {
             background-color: #b0de79;
-
         }
 
-        &:hover .price {
-            margin-top: 50px;
+        &:hover .title {
+            margin-bottom: 50px;
         }
     }
-    .title{
-        height:120px;
-    }
 
+    .title {
+        height: 120px;
+    }
 
     .main__content--advanced {
         border: 1px dotted gray;
         border-right: none;
 
         position: relative;
-        transition: 0.4s;
         height: 800px;
 
 
@@ -304,10 +308,7 @@ header {
             border-right: 1px dotted gray;
         }
 
-        &:hover .new {
-            display: block;
-            align-items: center;
-        }
+     
 
         .price {
             background-color: #7ee0bf;
@@ -324,9 +325,8 @@ header {
 
 
         position: relative;
-        transition: 0.4s;
-        height:800px;
-        
+        height: 800px;
+
         .new {
             position: absolute;
             width: 40px;
@@ -355,6 +355,7 @@ header {
             height: 100%;
 
         }
+
         &:hover .price {
             margin-top: 50px;
         }
@@ -371,7 +372,6 @@ header {
 
     .main__content--insane {
         border: 1px dotted gray;
-        transition: 0.4s;
         height: 800px;
 
         position: relative;
@@ -431,7 +431,8 @@ header {
 .footer {
     background-color: #212331;
     color: white;
-    padding: 120px 0;
+    padding-top: 120px;
+    padding: 0;
 
     p,
     h5 {
@@ -441,6 +442,8 @@ header {
     .footer__content {
         display: flex;
         justify-content: center;
+        width: 100%;
+        padding: 70px 0px;
 
         .footer__content--col4 {
             flex-basis: 260px;
@@ -455,7 +458,7 @@ header {
                 position: relative;
 
                 input {
-                    width: 100%;
+                    width: 80%;
                     background-color: #181828;
                     outline: none;
                     color: white;
@@ -776,6 +779,8 @@ header {
     display: flex;
     justify-content: center;
 
+    width: 100%;
+
     .copyright {
         align-items: center;
         display: flex;
@@ -808,6 +813,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        background-color: #181828;
 
         span {
             padding: 0px 10px;
