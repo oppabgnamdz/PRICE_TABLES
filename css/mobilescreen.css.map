@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACrB,AAAA,gBAAgB,CAAA;IACZ,KAAK,EAAC,KAAK,CAAA,UAAU;GACxB;EACD,AAAA,gBAAgB,CAAA;IACZ,KAAK,EAAC,IAAI,CAAA,UAAU;GACvB;EACD,AAAA,eAAe,CAAA;IACX,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,QAAQ;IACnB,SAAS,EAAE,MAAM;GACpB",
+    "sources": [
+        "mobilescreen.scss"
+    ],
+    "names": [],
+    "file": "mobilescreen.css"
+}

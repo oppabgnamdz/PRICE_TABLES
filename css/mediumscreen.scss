@@ -1,4 +1,4 @@
-@media (min-width:576px) and (max-width:991px) {
+@media (max-width:991px) {
     .menu__bar {
         display: flex;
         flex-flow: row wrap;
@@ -46,36 +46,7 @@
         }
     }
 
-    .main__content {
-        height: 1200px;
-
-        .main__content--beginner {
-            height: 1100px;
-
-            width: 200px;
-            flex-shrink: 0;
-        }
-
-        .main__content--advanced {
-            height: 1100px;
-            width: 200px;
-            flex-shrink: 0;
-        }
-
-        .main__content--master {
-            height: 1100px;
-            width: 200px;
-            flex-shrink: 0;
-        }
-
-        .main__content--insane {
-            height: 1100px;
-            width: 200px;
-            flex-shrink: 0;
-        }
-
-
-    }
+  
 
     .main__content {
         display: flex;
