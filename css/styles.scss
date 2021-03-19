@@ -293,6 +293,9 @@ section {
         position: relative;
         height: 800px;
 
+        display: flex;
+        flex-direction: column;
+
         .center {
             flex-basis: 550px;
         }
@@ -300,7 +303,8 @@ section {
         &:hover {
             background-color: white;
             border-right: 1px dotted gray;
-            height: 900px;
+            height: 850px;
+            transition: 0.4s;
 
         }
 
@@ -309,8 +313,16 @@ section {
         }
 
 
-        &:hover h2 {
-            margin-top: 50px;
+        &:hover .price {
+            margin-top: -7px;
+        }
+
+        &:hover .title {
+            flex-grow: 1;
+        }
+
+        &:hover .order {
+            flex-grow: 1;
         }
 
 
@@ -323,14 +335,15 @@ section {
     .main__content--advanced {
         border: 1px dotted gray;
         border-right: none;
-
         position: relative;
         height: 800px;
+        display: flex;
+        flex-direction: column;
 
         &:hover {
             background-color: white;
-            height: 900px;
-
+            height: 850px;
+            transition: 0.4s;
             border-right: 1px dotted gray;
         }
 
@@ -338,16 +351,26 @@ section {
             background-color: #7ee0bf;
         }
 
-        &:hover h2 {
-            margin-top: 50px;
+        &:hover .price {
+            margin-top: -7px;
         }
+
+        &:hover .title {
+            flex-grow: 1;
+        }
+
+        &:hover .order {
+            flex-grow: 1;
+        }
+
     }
 
     .main__content--master {
         border: 1px dotted gray;
         position: relative;
         height: 800px;
-
+        display: flex;
+        flex-direction: column;
         .new {
             position: absolute;
             width: 40px;
@@ -362,7 +385,6 @@ section {
             align-items: center;
             top: -15px;
             left: 40px;
-
             span {
                 display: inline-block;
                 margin-top: 10px;
@@ -372,12 +394,21 @@ section {
         &:hover {
             background-color: white;
             border-left: 1px dotted gray;
-            height: 900px;
+            height: 850px;
+            transition:0.4s;
 
         }
 
-        &:hover h2 {
-            margin-top: 50px;
+        &:hover .price {
+            margin-top: -7px;
+        }
+
+        &:hover .title {
+            flex-grow: 1;
+        }
+
+        &:hover .order {
+            flex-grow: 1;
         }
 
         .price {
@@ -388,7 +419,8 @@ section {
     .main__content--insane {
         border: 1px dotted gray;
         height: 800px;
-
+        display: flex;
+        flex-direction: column;
         position: relative;
 
         .new {
@@ -405,7 +437,6 @@ section {
             align-items: center;
             top: -15px;
             left: 40px;
-
             span {
                 display: inline-block;
                 margin-top: 10px;
@@ -415,20 +446,22 @@ section {
         &:hover {
             background-color: white;
             border-left: 1px dotted gray;
-            height: 900px;
-
+            height: 850px;
+            transition: 0.4s;
 
         }
 
-        &:hover .new {
-            display: block;
-            align-items: center;
+        &:hover .price {
+            margin-top: -7px;
         }
 
-        &:hover h2 {
-            margin-top: 50px;
+        &:hover .title {
+            flex-grow: 1;
         }
 
+        &:hover .order {
+            flex-grow: 1;
+        }
 
         border-left: none;
 
@@ -468,7 +501,6 @@ section {
 
             form {
                 position: relative;
-
                 input {
                     width: 80%;
                     background-color: #181828;
