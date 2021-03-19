@@ -3,13 +3,14 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-header {
+section {
   background-color: #2c2e3d;
 }
 
-.list {
+.list__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,10 +18,6 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 70px;
-}
-
-.slideandcontent {
-  background-color: #2c2e3d;
 }
 
 .header__nav {
@@ -67,7 +64,7 @@ header {
   margin: 0;
 }
 
-.header__nav .menu__bar ul.menu__bar--nav a li {
+.header__nav .menu__bar ul.menu__bar--nav li {
   list-style: none;
   color: white;
   margin: 1vw;
@@ -75,11 +72,21 @@ header {
   font-weight: bold;
 }
 
-.header__nav .menu__bar ul.menu__bar--nav a li:hover {
-  color: #00bcd4;
+.header__nav .menu__bar ul.menu__bar--nav li a {
+  color: white;
 }
 
-.header__nav .menu__bar ul.menu__bar--nav a:hover {
+.header__nav .menu__bar ul.menu__bar--nav li:hover a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.header__nav .menu__bar ul.menu__bar--nav li #page {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.header__nav .menu__bar ul.menu__bar--nav:hover {
   text-decoration: none;
 }
 
@@ -97,11 +104,18 @@ header {
   width: 150px;
 }
 
-.header__nav .menu__bar .menu__bar--font .fa-american-sign-language-interpreting {
-  color: red;
+.header__nav .menu__bar .menu__bar--font .fa-shopping-bag,
+.header__nav .menu__bar .menu__bar--font .fa-search {
+  color: white;
+}
+
+.header__nav .menu__bar .menu__bar--font .fa-shopping-bag:hover,
+.header__nav .menu__bar .menu__bar--font .fa-search:hover {
+  color: #00bcd4;
 }
 
 .header__nav .menu__bar .menu__bar--font .number--item {
+  width: 30px;
   background-color: #00bcd4;
   padding: 2px 20px;
   -webkit-clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%, 0 50%);
@@ -135,11 +149,10 @@ header {
 
 .description .description__content {
   margin: 50px 0;
-}
-
-.description .description__content p {
-  text-align: center;
   color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
 }
 
 .description .description__button {
@@ -230,7 +243,7 @@ header {
 
 .indicator {
   margin-top: 100px !important;
-  height: 300px;
+  height: 400px;
 }
 
 .indicator .active {
@@ -299,6 +312,11 @@ header {
 .main__content h1 {
   font-weight: lighter;
   font-size: 3.125rem;
+}
+
+.main__content .table td {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #72838e;
 }
 
 .main__content .price {
@@ -765,6 +783,7 @@ header {
 .footer .footer__content .footer__content--col2 .list-item li {
   border-bottom: 2px dotted gray;
   padding: 5px 0px;
+  color: gray;
 }
 
 .footer .footer__content .footer__content--col2 .list-item li:hover {
@@ -1125,7 +1144,7 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 }
 
