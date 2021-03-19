@@ -287,6 +287,10 @@ header {
   border: 1px solid #83bce9;
 }
 
+.main__content h4 {
+  height: 30px;
+}
+
 .main__content h1,
 .main__content .price--month {
   color: white;
@@ -316,15 +320,15 @@ header {
 .main__content .main__content--beginner:hover {
   background-color: white;
   border-right: 1px dotted gray;
-  height: 100%;
+  height: 900px;
 }
 
 .main__content .main__content--beginner .price {
   background-color: #b0de79;
 }
 
-.main__content .main__content--beginner:hover .title {
-  margin-bottom: 50px;
+.main__content .main__content--beginner:hover h2 {
+  margin-top: 50px;
 }
 
 .main__content .title {
@@ -340,7 +344,7 @@ header {
 
 .main__content .main__content--advanced:hover {
   background-color: white;
-  height: 100%;
+  height: 900px;
   border-right: 1px dotted gray;
 }
 
@@ -348,7 +352,7 @@ header {
   background-color: #7ee0bf;
 }
 
-.main__content .main__content--advanced:hover .price {
+.main__content .main__content--advanced:hover h2 {
   margin-top: 50px;
 }
 
@@ -386,19 +390,15 @@ header {
 .main__content .main__content--master:hover {
   background-color: white;
   border-left: 1px dotted gray;
-  height: 100%;
+  height: 900px;
 }
 
-.main__content .main__content--master:hover .price {
+.main__content .main__content--master:hover h2 {
   margin-top: 50px;
 }
 
 .main__content .main__content--master .price {
   background-color: #83bce9;
-}
-
-.main__content .main__content--master .order {
-  margin-top: -33px;
 }
 
 .main__content .main__content--insane {
@@ -438,7 +438,7 @@ header {
 .main__content .main__content--insane:hover {
   background-color: white;
   border-left: 1px dotted gray;
-  height: 100%;
+  height: 900px;
 }
 
 .main__content .main__content--insane:hover .new {
@@ -448,7 +448,7 @@ header {
           align-items: center;
 }
 
-.main__content .main__content--insane:hover .price {
+.main__content .main__content--insane:hover h2 {
   margin-top: 50px;
 }
 
@@ -1127,5 +1127,9 @@ header {
             flex-flow: row wrap;
     font-size: 0.5rem;
   }
+}
+
+#carouselId2 {
+  height: 250px;
 }
 /*# sourceMappingURL=styles.css.map */

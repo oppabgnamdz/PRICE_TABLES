@@ -248,7 +248,9 @@ header {
         }
     }
 
-
+    h4 {
+        height: 30px;
+    }
 
     h1,
     .price--month {
@@ -277,14 +279,17 @@ header {
         &:hover {
             background-color: white;
             border-right: 1px dotted gray;
-            height: 100%
+            height: 900px;
+
         }
+
         .price {
             background-color: #b0de79;
         }
 
-        &:hover .title {
-            margin-bottom: 50px;
+
+        &:hover h2 {
+            margin-top: 50px;
         }
     }
 
@@ -304,18 +309,19 @@ header {
 
         &:hover {
             background-color: white;
-            height: 100%;
+            height: 900px;
+
             border-right: 1px dotted gray;
         }
 
-     
+
 
         .price {
             background-color: #7ee0bf;
 
         }
 
-        &:hover .price {
+        &:hover h2 {
             margin-top: 50px;
         }
     }
@@ -350,11 +356,11 @@ header {
         &:hover {
             background-color: white;
             border-left: 1px dotted gray;
-            height: 100%;
+            height: 900px;
 
         }
 
-        &:hover .price {
+        &:hover h2 {
             margin-top: 50px;
         }
 
@@ -363,9 +369,7 @@ header {
 
         }
 
-        .order {
-            margin-top: -33px;
-        }
+
     }
 
     .main__content--insane {
@@ -399,9 +403,9 @@ header {
 
         &:hover {
             background-color: white;
-
             border-left: 1px dotted gray;
-            height: 100%;
+            height: 900px;
+
 
         }
 
@@ -410,10 +414,9 @@ header {
             align-items: center;
         }
 
-        &:hover .price {
+        &:hover h2 {
             margin-top: 50px;
         }
-
 
 
         border-left: none;
@@ -842,6 +845,10 @@ header {
         }
     }
 }
+
 @import "largescreen";
 @import "mediumscreen";
 @import "mobilescreen";
+#carouselId2{
+    height:250px;
+}
