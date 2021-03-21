@@ -1,13 +1,11 @@
 @media (min-width:992px) and (max-width:1200px) {
     .menu__bar {
-
         ul.menu__bar--nav a li {
             padding: 5px !important;
             margin: 2px !important;
             margin-top: 10px !important;
             font-size: 1rem;
         }
-
         .menu__bar--logo {
             padding: 5px !important;
             margin: 2px !important;
@@ -15,7 +13,6 @@
             font-size: 1rem;
             margin-right: 30px !important;
         }
-
         .menu__bar--font {
             padding: 5px !important;
             margin: 2px !important;
@@ -23,19 +20,13 @@
             font-size: 1rem;
             margin-left: 30px !important;
         }
-
-
     }
-
-
     .main__content {
         height: 1050px;
-
         .main__content--beginner {
             height: 1000px;
             display: flex;
             flex-direction: column;
-
             &:hover {
                 height: 100%;
             }
@@ -55,14 +46,12 @@
             height: 1000px;
             display: flex;
             flex-direction: column;
-
             &:hover {
                 height: 100%;
             }
             &:hover .title {
                 flex-grow: 1;
             }
-    
             &:hover .order {
                 flex-grow: 1;
             }
@@ -75,36 +64,30 @@
             height: 1000px;
             display: flex;
             flex-direction: column;
-
             &:hover {
                 height: 100%;
             }
             &:hover .title {
                 flex-grow: 1;
             }
-    
             &:hover .order {
                 flex-grow: 1;
             }
             &:hover .price {
                 margin-top: -88px;
             }
-
-
         }
 
         .main__content--insane {
             height: 1000px;
             display: flex;
             flex-direction: column;
-
             &:hover {
                 height: 100%;
             }
             &:hover .title {
                 flex-grow: 1;
             }
-    
             &:hover .order {
                 flex-grow: 1;
             }

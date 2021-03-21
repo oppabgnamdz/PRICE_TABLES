@@ -1,71 +1,53 @@
 section {
     background-color: #2c2e3d
 }
-
 .list__icon {
     display: flex;
     justify-content: center;
     margin: 70px;
 }
-
-
 .header__nav {
     background-color: #2c2e3d;
     display: flex;
     justify-content: center;
-
     .menu__bar {
         display: flex;
         justify-content: center;
-
         .menu__bar--logo {
             display: flex;
             align-items: center;
-
             span {
                 color: white;
                 font-weight: bold;
-
             }
-
             margin: 0 50px;
         }
-
         ul.menu__bar--nav {
             display: flex;
             align-items: center;
             margin: 0;
-
             li {
                 list-style: none;
                 color: white;
                 margin: 1vw;
                 padding: 15px;
                 font-weight: bold;
-
                 a {
                     color: white;
                 }
-
                 &:hover a {
                     color: #00bcd4;
                     text-decoration: none;
-
                 }
-
                 #page {
                     border: 1px solid white;
                     padding: 10px;
                 }
             }
-
             &:hover {
                 text-decoration: none;
             }
-
-
         }
-
         .menu__bar--font {
             display: flex;
             align-items: center;
@@ -73,16 +55,13 @@ section {
             color: white;
             justify-content: space-around;
             width: 150px;
-
             .fa-shopping-bag,
             .fa-search {
                 color: white;
-
                 &:hover {
                     color: #00bcd4;
                 }
             }
-
             .number--item {
                 width: 30px;
                 background-color: #00bcd4;
@@ -96,18 +75,15 @@ section {
 .description {
     margin: auto;
     max-width: 1100px;
-
     .description__title {
         display: flex;
         justify-content: center;
-
         span {
             font-size: 5rem;
             color: white;
             padding: 0 10px;
             font-weight: lighter;
         }
-
         .description__title--bold {
             font-weight: bold;
 
@@ -122,11 +98,9 @@ section {
         font-size: 24px;
 
     }
-
     .description__button {
         display: flex;
         justify-content: center;
-
         button {
             margin: 10px 20px;
             border: 1px solid white;
@@ -134,15 +108,12 @@ section {
             background-color: #2c2e3d;
             padding: 10px;
             border-radius: 30px;
-
+            outline: none;
             &:hover {
                 color: #00bcd4;
                 border: 1px solid #00bcd4;
                 ;
             }
-
-            outline: none;
-
         }
     }
 }
@@ -161,7 +132,6 @@ section {
     padding: 10px 0px;
     position: absolute;
     top: 10px;
-
     &:hover {
         background: #00bcd4;
     }
@@ -177,7 +147,6 @@ section {
 
 .carousel {
     display: flex;
-
     .carousel-control-prev {
         flex-basis: 10px;
         display: flex;
@@ -199,7 +168,6 @@ section {
 .indicator {
     margin-top: 100px !important;
     height: 400px;
-
     .active {
         background-color: #00bcd4;
     }
@@ -212,7 +180,6 @@ section {
     margin: 10px;
     border-radius: 50%;
     border: 1px solid white;
-
     &:hover {
         background-color: #00bcd4
     }

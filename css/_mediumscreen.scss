@@ -2,17 +2,12 @@
     .menu__bar {
         display: flex;
         flex-flow: row wrap;
-
         ul.menu__bar--nav a li {
             padding: 5px !important;
             margin: 2px !important;
             margin-top: 10px !important;
             font-size: 1rem;
         }
-
-
-
-
         .menu__bar--logo {
             padding: 5px !important;
             margin: 2px !important;
@@ -22,7 +17,6 @@
             width: 300px;
             order: 1;
         }
-
         .menu__bar--font {
             padding: 5px !important;
             margin: 2px !important;
@@ -35,38 +29,28 @@
         .menu__bar--nav{
             order: 3;
         }
-
-
-
     }
-
     .description__title {
         span {
             font-size: 3rem !important;
         }
     }
-
-  
-
     .main__content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         height: 100%;
-
         .main__content--beginner {
             width: 300px;
             height: 800px;
             border: 1px solid gray;
         }
-
         .main__content--advanced {
             width: 300px;
             height: 800px;
             border: 1px solid gray;
         }
-
         .main__content--master {
             width: 300px;
             height: 800px;
@@ -84,7 +68,6 @@
     .footer__content {
         display: flex;
         flex-flow: row wrap;
-
         .footer__content--col1 {
             flex-basis: 400px !important;
         }
@@ -107,7 +90,6 @@
     .footer__social {
         display: flex;
         flex-flow: row wrap;
-
         .copyright,
         .contact,
         .media-social {

@@ -3,30 +3,24 @@
     color: white;
     padding-top: 120px;
     padding: 0;
-
     p,
     h5 {
         margin: 0px;
     }
-
     .footer__content {
         display: flex;
         justify-content: center;
         width: 100%;
         padding: 70px 0px;
-
         .footer__content--col4 {
             flex-basis: 260px;
             margin: 0px 20px;
-
             p {
                 color: gray;
                 margin: 10px 0px;
             }
-
             form {
                 position: relative;
-
                 input {
                     width: 80%;
                     background-color: #181828;
@@ -43,27 +37,22 @@
                     outline: none;
                     border: 1px solid #394050;
                     width: 48px;
-
                     &:focus {
                         outline: none
                     }
                 }
             }
-
             .newsletter {
                 margin: 30px 0px;
             }
-
             .grid {
                 margin-top: 20px;
-
                 &__one,
                 &__two,
-               &__three {
+                &__three {
                     height: 65px;
                     display: flex;
                 }
-
                 &__one {
                     &--box1 {
                         flex-grow: 1;
@@ -83,7 +72,6 @@
                         margin: 0px 10px;
                     }
                 }
-
                 &__two {
                     margin-top: 20px;
 
@@ -106,7 +94,7 @@
                     }
                 }
 
-                &__three{
+                &__three {
                     margin-top: 20px;
 
                     &--box1 {
@@ -133,26 +121,20 @@
         .footer__content--col3 {
             flex-basis: 260px;
             margin: 0px 20px;
-
             #carouselId2 {
                 height: 250px;
             }
-
-
             .form {
                 margin: 20px 0px;
-
                 .form-name,
                 .form-email {
                     position: relative;
                     margin: 20px 0px;
-
                     i {
                         position: absolute;
                         right: 10px;
                         color: gray;
                         top: 10px;
-
                     }
 
                     input {
@@ -163,7 +145,6 @@
                         padding: 5px 5px;
                         border: 1px solid gray
                     }
-
                 }
 
                 textarea {
@@ -186,10 +167,8 @@
 
             .block {
                 margin-top: 20px;
-
                 .block__top {
                     display: flex;
-
                     &--one {
                         flex-grow: 1;
                         width: 100%;
@@ -198,7 +177,7 @@
                         margin: 0 10px;
                     }
 
-                    &--two{
+                    &--two {
                         flex-grow: 1;
                         width: 100%;
                         height: 50px;
@@ -219,7 +198,7 @@
                     display: flex;
                     margin-top: 10px;
 
-                    &--one{
+                    &--one {
                         flex-grow: 1;
                         width: 100%;
                         height: 50px;
@@ -253,19 +232,15 @@
         .footer__content--col2 {
             flex-basis: 260px;
             margin: 0px 20px;
-
             .useful-link {
                 margin: 20px 0px;
             }
-
             .list-item {
                 margin-left: 15px;
-
                 li {
                     border-bottom: 2px dotted gray;
                     padding: 5px 0px;
                     color: gray;
-
                     &:hover {
                         color: #00bcd4
                     }
@@ -274,7 +249,6 @@
 
             .posts {
                 margin: 20px 0px;
-
                 &__content {
                     display: flex;
                     align-items: center;
@@ -309,18 +283,14 @@
 
         .footer__content--col1 {
             margin: 0px 20px;
-
             .logo {
                 display: flex;
-
                 img {
                     margin-right: 20px;
                 }
-
                 .gem--bold {
                     font-weight: bold;
                 }
-
                 p {
                     font-size: 20px;
 
@@ -343,7 +313,6 @@
             }
 
             .social {
-
                 margin-top: 30px;
                 color: gray;
             }
@@ -358,13 +327,10 @@
     height: 100px;
     display: flex;
     justify-content: center;
-
     width: 100%;
-
     .copyright {
         align-items: center;
         display: flex;
-
         .copyright--blue {
             color: #0690a6;
             margin-left: 10px;
@@ -375,7 +341,6 @@
         display: flex;
         align-items: center;
         padding: 0px 100px;
-
         a {
             color: gray;
             text-decoration: none;
@@ -383,7 +348,6 @@
             border-right: 1px solid gray;
 
         }
-
         .right {
             border-right: none;
         }
@@ -394,7 +358,6 @@
         align-items: center;
         justify-content: space-around;
         background-color: #181828;
-
         span {
             padding: 0px 10px;
 
