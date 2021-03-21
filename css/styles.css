@@ -326,18 +326,18 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.main__content .main__content--beginner:hover {
-  background-color: white;
-  border-right: 1px solid gray;
-  height: 850px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background-color: #f0f3f2;
 }
 
 .main__content .main__content--beginner .price {
   background-color: #b0de79;
+}
+
+.main__content .main__content--beginner:hover {
+  background-color: white;
+  height: 850px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .main__content .main__content--beginner:hover .price {
@@ -362,7 +362,6 @@ section {
 
 .main__content .main__content--advanced {
   border: 1px solid gray;
-  border-right: none;
   position: relative;
   height: 800px;
   display: -webkit-box;
@@ -373,14 +372,18 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 1px;
+  background-color: #f0f3f2;
+}
+
+.main__content .main__content--advanced .price {
+  background-color: #7ee0bf;
 }
 
 .main__content .main__content--advanced:hover {
   background-color: white;
   height: 850px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border-right: 1px solid gray;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .main__content .main__content--advanced .price {
@@ -415,6 +418,7 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 1px;
+  background-color: #f0f3f2;
 }
 
 .main__content .main__content--master .new {
@@ -442,12 +446,15 @@ section {
   margin-top: 10px;
 }
 
+.main__content .main__content--master .price {
+  background-color: #83bce9;
+}
+
 .main__content .main__content--master:hover {
   background-color: white;
-  border-left: 1px solid gray;
   height: 850px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .main__content .main__content--master:hover .price {
@@ -466,10 +473,6 @@ section {
           flex-grow: 1;
 }
 
-.main__content .main__content--master .price {
-  background-color: #83bce9;
-}
-
 .main__content .main__content--insane {
   border: 1px solid gray;
   height: 800px;
@@ -481,16 +484,19 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  border-left: none;
   margin: 0 1px;
+  background-color: #f0f3f2;
+}
+
+.main__content .main__content--insane .price {
+  background-color: #a289e8;
 }
 
 .main__content .main__content--insane:hover {
   background-color: white;
-  border-left: 1px solid gray;
   height: 850px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .main__content .main__content--insane:hover .price {
@@ -507,10 +513,6 @@ section {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
-
-.main__content .main__content--insane .price {
-  background-color: #a289e8;
 }
 
 .footer {

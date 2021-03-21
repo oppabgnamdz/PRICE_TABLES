@@ -52,14 +52,14 @@
         margin: 0 1px;
         display: flex;
         flex-direction: column;
+        background-color:#f0f3f2;
         .price {
             background-color: #b0de79;
         }
         &:hover {
             background-color: white;
-            border-right: 1px solid gray;
             height: 850px;
-            transition: 0.4s;
+            transition: 1s;
         }
         &:hover .price {
             margin-top: -7px;
@@ -77,20 +77,19 @@
     }
     .main__content--advanced {
         border: 1px solid gray;
-        border-right: none;
         position: relative;
         height: 800px;
         display: flex;
         flex-direction: column;
         margin: 0 1px;
+        background-color:#f0f3f2;
         .price {
             background-color: #7ee0bf;
         }
         &:hover {
             background-color: white;
             height: 850px;
-            transition: 0.4s;
-            border-right: 1px solid gray;
+            transition: 1s;
         }
         .price {
             background-color: #7ee0bf;
@@ -115,6 +114,7 @@
         display: flex;
         flex-direction: column;
         margin: 0 1px;
+        background-color:#f0f3f2;
         .new {
             position: absolute;
             width: 40px;
@@ -139,9 +139,8 @@
         }
         &:hover {
             background-color: white;
-            border-left: 1px solid gray;
             height: 850px;
-            transition: 0.4s;
+            transition: 1s;
         }
         &:hover .price {
             margin-top: -7px;
@@ -160,17 +159,19 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        border-left: none;
         margin: 0 1px;
+        background-color:#f0f3f2;
+       
         .price {
             background-color: #a289e8;
 
         }
+        
         &:hover {
             background-color: white;
-            border-left: 1px solid gray;
             height: 850px;
-            transition: 0.4s;
+            transition: 1s;
+          
         }
         &:hover .price {
             margin-top: -7px;
