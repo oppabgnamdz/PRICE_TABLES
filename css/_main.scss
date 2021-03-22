@@ -5,7 +5,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     align-items: center;
-    height: 850px;
+    height: 800px;
     h2 {
         padding: 10px;
         font-weight: 100;
@@ -62,7 +62,7 @@
     }
     .main__content--beginner {
         border: 1px solid #dfe5e8;
-        height: 800px;
+        height: 750px;
         width:285px;
         display: flex;
         flex-direction: column;
@@ -77,7 +77,7 @@
         }
         &:hover {
             background-color: white;
-            height: 830px;
+            height: 780px;
             transition: 1s;
         }
        
@@ -92,7 +92,7 @@
     .main__content--advanced {
         border: 1px solid #dfe5e8;
         position: relative;
-        height: 800px;
+        height: 750px;
         width:285px;
         display: flex;
         justify-content: center;
@@ -107,7 +107,7 @@
         }
         &:hover {
             background-color: white;
-            height: 830px;
+            height: 780px;
             transition: 1s;
         }
         &:hover .title {
@@ -118,7 +118,7 @@
     .main__content--master {
         border: 1px solid #dfe5e8;
         position: relative;
-        height: 800px;
+        height: 750px;
         width:285px;
         display: flex;
         justify-content: center;
@@ -157,7 +157,7 @@
         }
         &:hover {
             background-color: white;
-            height: 830px;
+            height: 780px;
             transition: 1s;
         }
         &:hover .title {
@@ -168,7 +168,7 @@
 
     .main__content--insane {
         border: 1px solid #dfe5e8;
-        height: 800px;
+        height: 750px;
         width:285px;
         display: flex;
         flex-direction: column;
@@ -185,7 +185,7 @@
         }
         &:hover {
             background-color: white;
-            height: 830px;
+            height: 780px;
             transition: 1s;
           
         }

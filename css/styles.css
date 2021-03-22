@@ -267,7 +267,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 850px;
+  height: 800px;
 }
 
 .main__content h2 {
@@ -333,7 +333,7 @@ section {
 
 .main__content .main__content--beginner {
   border: 1px solid #dfe5e8;
-  height: 800px;
+  height: 750px;
   width: 285px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,7 +361,7 @@ section {
 
 .main__content .main__content--beginner:hover {
   background-color: white;
-  height: 830px;
+  height: 780px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -378,7 +378,7 @@ section {
 .main__content .main__content--advanced {
   border: 1px solid #dfe5e8;
   position: relative;
-  height: 800px;
+  height: 750px;
   width: 285px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -406,7 +406,7 @@ section {
 
 .main__content .main__content--advanced:hover {
   background-color: white;
-  height: 830px;
+  height: 780px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -419,7 +419,7 @@ section {
 .main__content .main__content--master {
   border: 1px solid #dfe5e8;
   position: relative;
-  height: 800px;
+  height: 750px;
   width: 285px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -477,7 +477,7 @@ section {
 
 .main__content .main__content--master:hover {
   background-color: white;
-  height: 830px;
+  height: 780px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -489,7 +489,7 @@ section {
 
 .main__content .main__content--insane {
   border: 1px solid #dfe5e8;
-  height: 800px;
+  height: 750px;
   width: 285px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,7 +518,7 @@ section {
 
 .main__content .main__content--insane:hover {
   background-color: white;
-  height: 830px;
+  height: 780px;
   -webkit-transition: 1s;
   transition: 1s;
 }
