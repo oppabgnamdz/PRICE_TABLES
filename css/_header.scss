@@ -1,5 +1,5 @@
 section {
-    background-color: #2c2e3d
+    background-color: #2c2e3d;
 }
 .list__icon {
     display: flex;
@@ -39,7 +39,6 @@ section {
                 &:hover a {
                     color: #00bcd4;
                     text-decoration: none;
-                   
                 }
                 #page {
                     border: 1px solid white;
@@ -73,7 +72,6 @@ section {
         }
     }
 }
-
 .description {
     margin: auto;
     max-width: 1100px;
@@ -85,21 +83,17 @@ section {
             color: white;
             padding: 0 10px;
             font-weight: lighter;
-            
         }
         .description__title--bold {
             font-weight: bold;
-
         }
     }
-
     .description__content {
         margin: 50px 0;
         color: white;
         text-align: center;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 24px;
-
     }
     .description__button {
         display: flex;
@@ -116,12 +110,10 @@ section {
             &:hover {
                 color: #00bcd4;
                 border: 3px solid #00bcd4;
-                
             }
         }
     }
 }
-
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     display: inline-block;
@@ -129,7 +121,6 @@ section {
     width: 20px;
     height: 40px;
 }
-
 .control-next {
     background: #212331;
     width: 20%;
@@ -140,15 +131,12 @@ section {
         background: #00bcd4;
     }
 }
-
 .carousel-control-prev,
 .carousel-control-next {
     padding: 0 !important;
     margin: 0 !important;
     display: inline-block;
-
 }
-
 .carousel {
     display: flex;
     .carousel-control-prev {
@@ -156,19 +144,17 @@ section {
         display: flex;
         justify-content: flex-start;
     }
-    .carousel-control-next{
+    .carousel-control-next {
         flex-basis: 10px;
         display: flex;
         justify-content: flex-end;
     }
 }
-
 .control-next-right {
     text-align: right;
     background: #00bcd4;
     width: 20%;
 }
-
 .indicator {
     margin-top: 100px !important;
     height: 400px;
@@ -176,7 +162,6 @@ section {
         background-color: #00bcd4;
     }
 }
-
 .carousel-indicators--item {
     width: 20px;
     height: 20px;
@@ -185,6 +170,6 @@ section {
     border-radius: 50%;
     border: 1px solid white;
     &:hover {
-        background-color: #00bcd4
+        background-color: #00bcd4;
     }
 }
