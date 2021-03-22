@@ -25,8 +25,15 @@
             border: 1px solid #83bce9;
         }
     }
-    h4 {
-        height: 30px;
+    .infor--sub {
+        height: 60px;
+        margin: 10px;
+        h4{
+        }
+        h6{
+            font-size: 14px;
+            color: #83bce9;
+        }
     }
     h1,
     .price--month {
@@ -36,6 +43,7 @@
         font-weight: lighter;
         font-size: 3.125rem
     }
+  
     .table {
         td {
             font-family: 'Source Sans Pro', sans-serif;
@@ -47,29 +55,27 @@
     }
     .main__content--beginner {
         border: 1px solid #dfe5e8;
-        height: 800px;
-      
+        height: 850px;
         display: flex;
         flex-direction: column;
         background-color:#f0f3f2;
         transition: 1s;
         justify-content: center;
+        .title{
+            transition: 1s;
+        }
         .price {
             background-color: #b0de79;
         }
         &:hover {
             background-color: white;
-            height: 850px;
+            height: 900px;
             transition: 1s;
         }
        
         &:hover .title {
-            flex-grow: 1;
-        }
-
-        &:hover .order {
-            flex-grow: 1;
-        }
+            transform: translateY(-20px);
+         }
     }
     .title {
         height: 120px;
@@ -77,44 +83,36 @@
     .main__content--advanced {
         border: 1px solid #dfe5e8;
         position: relative;
-        height: 800px;
+        height: 850px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-      
         background-color:#f0f3f2;
         transition: 1s;
-        .price {
-            background-color: #7ee0bf;
-        }
-        &:hover {
-            background-color: white;
-            height: 850px;
+        .title{
             transition: 1s;
         }
         .price {
             background-color: #7ee0bf;
         }
-
+        &:hover {
+            background-color: white;
+            height: 900px;
+            transition: 1s;
+        }
         &:hover .title {
-            flex-grow: 1;
-        }
-
-        &:hover .order {
-            flex-grow: 1;
-        }
+            transform: translateY(-20px);
+         }
     }
     .main__content--master {
         border: 1px solid #dfe5e8;
         position: relative;
-        height: 800px;
+        height: 850px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-       
         background-color:#f0f3f2;
         transition: 1s;
-        
         .new {
             position: absolute;
             width: 40px;
@@ -134,51 +132,49 @@
                 margin-top: 10px;
             }
         }
+        .title{
+            transition: 1s;
+            &--best{
+                color: #83bce9;
+            }
+        }
         .price {
             background-color: #83bce9;
         }
         &:hover {
             background-color: white;
-            height: 850px;
+            height: 900px;
             transition: 1s;
         }
-       
         &:hover .title {
-            flex-grow: 1;
-        }
-        &:hover .order {
-            flex-grow: 1;
-        }
+            transform: translateY(-20px);
+         }
     }
 
     .main__content--insane {
         border: 1px solid #dfe5e8;
-        height: 800px;
+        height: 850px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: relative;
-      
         background-color:#f0f3f2;
         transition: 1s;
         .price {
             background-color: #a289e8;
 
         }
-       
-        
+        .title{
+            transition: 1s;
+        }  
         &:hover {
             background-color: white;
-            height: 850px;
+            height: 900px;
             transition: 1s;
           
         }
-      
-        &:hover .title {
-            flex-grow: 1;
-        }
-        &:hover .order {
-            flex-grow: 1;
-        }
+       &:hover .title {
+          transform: translateY(-20px);
+       }
     }
 }

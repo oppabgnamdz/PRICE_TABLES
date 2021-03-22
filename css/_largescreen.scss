@@ -30,13 +30,7 @@
             &:hover {
                 height: 100%;
             }
-            &:hover .title {
-                flex-grow: 1;
-            }
-    
-            &:hover .order {
-                flex-grow: 1;
-            }
+           
         }
 
         .main__content--advanced {
@@ -46,12 +40,7 @@
             &:hover {
                 height: 100%;
             }
-            &:hover .title {
-                flex-grow: 1;
-            }
-            &:hover .order {
-                flex-grow: 1;
-            }
+          
         }
 
         .main__content--master {
@@ -61,12 +50,7 @@
             &:hover {
                 height: 100%;
             }
-            &:hover .title {
-                flex-grow: 1;
-            }
-            &:hover .order {
-                flex-grow: 1;
-            }
+          
         }
 
         .main__content--insane {
@@ -76,12 +60,7 @@
             &:hover {
                 height: 100%;
             }
-            &:hover .title {
-                flex-grow: 1;
-            }
-            &:hover .order {
-                flex-grow: 1;
-            }
+          
         }
     }
 }

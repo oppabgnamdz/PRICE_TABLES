@@ -34,10 +34,12 @@ section {
                 font-weight: bold;
                 a {
                     color: white;
+                    font-size: 14px;
                 }
                 &:hover a {
                     color: #00bcd4;
                     text-decoration: none;
+                   
                 }
                 #page {
                     border: 1px solid white;
@@ -79,10 +81,11 @@ section {
         display: flex;
         justify-content: center;
         span {
-            font-size: 5rem;
+            font-size: 70px;
             color: white;
             padding: 0 10px;
             font-weight: lighter;
+            
         }
         .description__title--bold {
             font-weight: bold;
@@ -103,16 +106,17 @@ section {
         justify-content: center;
         button {
             margin: 10px 20px;
-            border: 1px solid white;
+            border: 3px solid white;
             color: white;
             background-color: #2c2e3d;
             padding: 10px;
             border-radius: 30px;
             outline: none;
+            font-size: 19px;
             &:hover {
                 color: #00bcd4;
-                border: 1px solid #00bcd4;
-                ;
+                border: 3px solid #00bcd4;
+                
             }
         }
     }
