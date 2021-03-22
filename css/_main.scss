@@ -5,7 +5,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     align-items: center;
-    height: 900px;
+    height: 850px;
     h2 {
         padding: 10px;
         font-weight: 100;
@@ -62,14 +62,14 @@
     }
     .main__content--beginner {
         border: 1px solid #dfe5e8;
-        height: 850px;
+        height: 800px;
         width:285px;
         display: flex;
         flex-direction: column;
         background-color:#f0f3f2;
         transition: 1s;
         justify-content: center;
-        .title,button{
+        .title{
             transition: 1s;
         }
         .price {
@@ -77,18 +77,14 @@
         }
         &:hover {
             background-color: white;
-            height: 900px;
+            height: 830px;
             transition: 1s;
         }
        
         &:hover .title {
             transform: translateY(-20px);
          }
-         &:hover button{
-             background-color:#83bce9;
-             border: 1px solid #83bce9;
-            
-         }
+        
     }
     .title {
         height: 120px;
@@ -96,14 +92,14 @@
     .main__content--advanced {
         border: 1px solid #dfe5e8;
         position: relative;
-        height: 850px;
+        height: 800px;
         width:285px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         background-color:#f0f3f2;
         transition: 1s;
-        .title,button{
+        .title{
             transition: 1s;
         }
         .price {
@@ -111,22 +107,18 @@
         }
         &:hover {
             background-color: white;
-            height: 900px;
+            height: 830px;
             transition: 1s;
         }
         &:hover .title {
             transform: translateY(-20px);
          }
-         &:hover button{
-            background-color:#83bce9;
-            border: 1px solid #83bce9;
-           
-        }
+        
     }
     .main__content--master {
         border: 1px solid #dfe5e8;
         position: relative;
-        height: 850px;
+        height: 800px;
         width:285px;
         display: flex;
         justify-content: center;
@@ -159,30 +151,24 @@
                 font-size: 16px ;
             }
         }
-        button{
-            transition: 1s;
-        }
+       
         .price {
             background-color: #83bce9;
         }
         &:hover {
             background-color: white;
-            height: 900px;
+            height: 830px;
             transition: 1s;
         }
         &:hover .title {
             transform: translateY(-20px);
          }
-         &:hover button{
-            background-color:#83bce9;
-            border: 1px solid #83bce9;
-           
-        }
+        
     }
 
     .main__content--insane {
         border: 1px solid #dfe5e8;
-        height: 850px;
+        height: 800px;
         width:285px;
         display: flex;
         flex-direction: column;
@@ -194,22 +180,18 @@
             background-color: #a289e8;
 
         }
-        .title,button{
+        .title{
             transition: 1s;
         }
         &:hover {
             background-color: white;
-            height: 900px;
+            height: 830px;
             transition: 1s;
           
         }
        &:hover .title {
           transform: translateY(-20px);
        }
-       &:hover button{
-        background-color:#83bce9;
-        border: 1px solid #83bce9;
        
-    }
     }
 }
