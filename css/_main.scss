@@ -7,8 +7,9 @@
     align-items: center;
     height: 900px;
     h2 {
-        padding: 20px;
+        padding: 10px;
         font-weight: 100;
+        padding-bottom: 0;
     }
     button {
         background-color: #393d50;
@@ -29,6 +30,7 @@
         height: 60px;
         margin: 10px;
         h4{
+            font-weight: 1000;
         }
         h6{
             font-size: 14px;
@@ -48,7 +50,12 @@
         td {
             font-family: 'Source Sans Pro', sans-serif;
             color: #72838e;
+            
         }
+        .table--lineth{
+            text-decoration: line-through
+        }
+        
     }
     .price {
         padding: 15px 0px;
@@ -56,12 +63,13 @@
     .main__content--beginner {
         border: 1px solid #dfe5e8;
         height: 850px;
+        width:285px;
         display: flex;
         flex-direction: column;
         background-color:#f0f3f2;
         transition: 1s;
         justify-content: center;
-        .title{
+        .title,button{
             transition: 1s;
         }
         .price {
@@ -76,6 +84,11 @@
         &:hover .title {
             transform: translateY(-20px);
          }
+         &:hover button{
+             background-color:#83bce9;
+             border: 1px solid #83bce9;
+            
+         }
     }
     .title {
         height: 120px;
@@ -84,12 +97,13 @@
         border: 1px solid #dfe5e8;
         position: relative;
         height: 850px;
+        width:285px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         background-color:#f0f3f2;
         transition: 1s;
-        .title{
+        .title,button{
             transition: 1s;
         }
         .price {
@@ -103,11 +117,17 @@
         &:hover .title {
             transform: translateY(-20px);
          }
+         &:hover button{
+            background-color:#83bce9;
+            border: 1px solid #83bce9;
+           
+        }
     }
     .main__content--master {
         border: 1px solid #dfe5e8;
         position: relative;
         height: 850px;
+        width:285px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -136,7 +156,11 @@
             transition: 1s;
             &--best{
                 color: #83bce9;
+                font-size: 16px ;
             }
+        }
+        button{
+            transition: 1s;
         }
         .price {
             background-color: #83bce9;
@@ -149,11 +173,17 @@
         &:hover .title {
             transform: translateY(-20px);
          }
+         &:hover button{
+            background-color:#83bce9;
+            border: 1px solid #83bce9;
+           
+        }
     }
 
     .main__content--insane {
         border: 1px solid #dfe5e8;
         height: 850px;
+        width:285px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -164,9 +194,9 @@
             background-color: #a289e8;
 
         }
-        .title{
+        .title,button{
             transition: 1s;
-        }  
+        }
         &:hover {
             background-color: white;
             height: 900px;
@@ -176,5 +206,10 @@
        &:hover .title {
           transform: translateY(-20px);
        }
+       &:hover button{
+        background-color:#83bce9;
+        border: 1px solid #83bce9;
+       
+    }
     }
 }
