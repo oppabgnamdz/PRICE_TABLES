@@ -46,10 +46,9 @@
         padding: 15px 0px;
     }
     .main__content--beginner {
-        border: 1px solid gray;
-        position: relative;
+        border: 1px solid #dfe5e8;
         height: 800px;
-        margin: 0 1px;
+      
         display: flex;
         flex-direction: column;
         background-color:#f0f3f2;
@@ -76,13 +75,13 @@
         height: 120px;
     }
     .main__content--advanced {
-        border: 1px solid gray;
+        border: 1px solid #dfe5e8;
         position: relative;
         height: 800px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 0 1px;
+      
         background-color:#f0f3f2;
         transition: 1s;
         .price {
@@ -106,13 +105,13 @@
         }
     }
     .main__content--master {
-        border: 1px solid gray;
+        border: 1px solid #dfe5e8;
         position: relative;
         height: 800px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 0 1px;
+       
         background-color:#f0f3f2;
         transition: 1s;
         
@@ -153,13 +152,13 @@
     }
 
     .main__content--insane {
-        border: 1px solid gray;
+        border: 1px solid #dfe5e8;
         height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: relative;
-        margin: 0 1px;
+      
         background-color:#f0f3f2;
         transition: 1s;
         .price {
