@@ -279,6 +279,7 @@ section {
 
 .main__content button {
   background-color: #393d50;
+  border: 1px solid #393d50;
   padding: 10px 20px;
   border-radius: 50px;
   outline: none;
