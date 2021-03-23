@@ -438,27 +438,27 @@ section {
 
 .main__content .main__content--master .new {
   position: absolute;
+  top: -20px;
+  left: 40px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #393d50;
   color: white;
-  padding: 2px;
   font-size: 10px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: -15px;
-  left: 40px;
 }
 
-.main__content .main__content--master .new span {
+.main__content .main__content--master .new .new--label {
   display: inline-block;
-  margin-top: 10px;
 }
 
 .main__content .main__content--master .title {

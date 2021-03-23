@@ -122,21 +122,19 @@
     transition: 1s;
     .new {
       position: absolute;
+      top: -20px;
+      left: 40px;
       width: 40px;
       height: 40px;
       border-radius: 50%;
       background-color: #393d50;
       color: white;
-      padding: 2px;
       font-size: 10px;
-      display: block;
+      display: flex;
       justify-content: center;
       align-items: center;
-      top: -15px;
-      left: 40px;
-      span {
+      .new--label {
         display: inline-block;
-        margin-top: 10px;
       }
     }
     .title {
