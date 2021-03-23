@@ -1,5 +1,5 @@
 @mixin card {
-  height: 800px;
+ 
   display: flex;
   flex-direction: column;
   &:hover {
@@ -28,7 +28,7 @@
     }
   }
   .main__content {
-    height: 850px;
+    
     .main__content--beginner {
       @include card();
     }
