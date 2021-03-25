@@ -484,6 +484,8 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
   background-color: #393d50;
   color: white;
   font-size: 10px;
@@ -530,6 +532,10 @@ section {
 .main__content .main__content--master:hover .bottom {
   -webkit-transform: scaleY(2.4);
           transform: scaleY(2.4);
+}
+
+.main__content .main__content--master:hover .new {
+  top: -30px;
 }
 
 .main__content .main__content--insane {
