@@ -328,14 +328,15 @@ section {
   color: #83bce9;
 }
 
-.main__content h1,
+.main__content .price--money,
 .main__content .price--month {
   color: white;
 }
 
-.main__content h1 {
+.main__content .price--money {
   font-weight: lighter;
   font-size: 3.125rem;
+  display: block;
 }
 
 .main__content .title {
@@ -347,9 +348,14 @@ section {
   border-top: none;
 }
 
-.main__content .table td {
+.main__content .table td, .main__content .table li {
   font-family: "Source Sans Pro", sans-serif;
   color: #72838e;
+  list-style: none;
+  border: 1px solid #dfe5e8;
+  padding: 10px 0;
+  border-right: none;
+  border-left: none;
 }
 
 .main__content .table .table--lineth {
@@ -358,6 +364,7 @@ section {
 
 .main__content .price__infor {
   border: 1px solid #dfe5e8;
+  border-bottom: none;
 }
 
 .main__content .price__infor .price {

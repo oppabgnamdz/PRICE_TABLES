@@ -51,13 +51,14 @@
       color: #83bce9;
     }
   }
-  h1,
+  .price--money,
   .price--month {
     color: white;
   }
-  h1 {
+  .price--money {
     font-weight: lighter;
     font-size: 3.125rem;
+    display: block;
   }
   .title {
     height: 90px;
@@ -67,9 +68,14 @@
     border-top: none;
   }
   .table {
-    td {
+    td,li {
       font-family: "Source Sans Pro", sans-serif;
       color: #72838e;
+      list-style: none;
+      border: 1px solid #dfe5e8;
+      padding: 10px 0;
+      border-right: none;
+      border-left: none;
     }
     .table--lineth {
       text-decoration: line-through;
@@ -77,6 +83,7 @@
   }
   .price__infor {
     border: 1px solid #dfe5e8;
+    border-bottom: none;
     .price {
       padding: 15px 0px;
     }
