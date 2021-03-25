@@ -71,19 +71,16 @@
         }
         &__two {
           margin-top: 20px;
-
           &--box1 {
             flex-grow: 1;
             background-color: #b6c6c9;
             margin: 0px 10px;
           }
-
           &--box2 {
             flex-grow: 1;
             background-color: #828e97;
             margin: 0px 10px;
           }
-
           &--box3 {
             flex-grow: 1;
             background-color: #bcbcbc;
@@ -93,19 +90,16 @@
 
         &__three {
           margin-top: 20px;
-
           &--box1 {
             flex-grow: 1;
             background-color: #b6c6c9;
             margin: 0px 10px;
           }
-
           &--box2 {
             flex-grow: 1;
             background-color: #828e97;
             margin: 0px 10px;
           }
-
           &--box3 {
             flex-grow: 1;
             background-color: #bcbcbc;
@@ -114,7 +108,6 @@
         }
       }
     }
-
     .footer__content--col3 {
       flex-basis: 260px;
       margin: 0px 20px;
@@ -133,7 +126,6 @@
             color: gray;
             top: 10px;
           }
-
           input {
             width: 100%;
             background-color: #181828;
@@ -143,13 +135,11 @@
             border: 1px solid gray;
           }
         }
-
         textarea {
           background-color: #181828;
           width: 100%;
           padding: 10px 5px;
         }
-
         button {
           background-color: #394050;
           padding: 5px 0px;
@@ -159,7 +149,6 @@
           color: #dfe5e8;
         }
       }
-
       .block {
         margin-top: 20px;
         .block__top {
@@ -171,7 +160,6 @@
             background-color: #828e97;
             margin: 0 10px;
           }
-
           &--two {
             flex-grow: 1;
             width: 100%;
@@ -179,7 +167,6 @@
             background-color: #5c6973;
             margin: 0 10px;
           }
-
           &--three {
             flex-grow: 1;
             width: 100%;
@@ -192,7 +179,6 @@
         .block__bot {
           display: flex;
           margin-top: 10px;
-
           &--one {
             flex-grow: 1;
             width: 100%;
@@ -201,7 +187,6 @@
             margin: 0 10px;
             order: 3;
           }
-
           &--two {
             flex-grow: 1;
             width: 100%;
@@ -210,7 +195,6 @@
             margin: 0 10px;
             order: 1;
           }
-
           &--three {
             flex-grow: 1;
             width: 100%;
@@ -249,7 +233,6 @@
           justify-content: space-around;
           padding: 10px 0px;
           border-bottom: 2px solid gray;
-
           &--avatar {
             width: 72px;
             height: 72px;
@@ -258,15 +241,12 @@
             flex-basis: 72px;
             padding: 0px 30px;
           }
-
           &--detail {
             margin-left: 10px;
           }
-
           &--date {
             display: flex;
             justify-content: space-between;
-
             &-time {
               color: #00bcd4;
             }
@@ -277,6 +257,7 @@
 
     .footer__content--col1 {
       margin: 0px 20px;
+      flex-basis: 260px;
       .logo {
         display: flex;
         img {
@@ -289,28 +270,22 @@
           font-size: 20px;
         }
       }
-
       .lorem {
         margin: 20px 0px;
         color: gray;
       }
-
       .contact {
         margin: 20px 0px;
       }
-
       .address {
         color: gray;
         border-bottom: 2px solid gray;
         padding: 15px 0px;
       }
-
       .social {
         margin-top: 30px;
         color: gray;
       }
-
-      flex-basis: 260px;
     }
   }
 }
@@ -352,27 +327,21 @@
     background-color: #181828;
     span {
       padding: 0px 10px;
-
       .fa {
         font-size: 1.5rem;
       }
-
       .fa-google {
         color: red;
       }
-
       .fa-youtube {
         color: red;
       }
-
       .fa-telegram {
         color: #00bcd4;
       }
-
       .fa-facebook {
         color: blue;
       }
-
       .fa-twitter {
         color: cyan;
       }
