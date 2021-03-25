@@ -74,7 +74,7 @@ section {
   text-decoration: none;
 }
 
-.header__nav .menu__bar ul.menu__bar--nav li #page {
+.header__nav .menu__bar ul.menu__bar--nav li .menu__bar--nav-page {
   border: 1px solid white;
   padding: 10px;
 }
@@ -285,6 +285,8 @@ section {
   outline: none;
   color: white;
   margin: 20px 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .main__content button i {
