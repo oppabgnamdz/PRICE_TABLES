@@ -1,0 +1,12 @@
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_largescreen";
+@import "_mediumscreen";
+@import "_mobilescreen";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,239 @@
+.main__content {
+  display: flex;
+  text-align: center;
+  padding: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  h2 {
+    padding: 10px;
+    font-weight: 100;
+    padding-bottom: 0;
+    transition: 1s;
+  }
+  button {
+    background-color: #393d50;
+    border: 1px solid #393d50;
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    color: white;
+    margin: 20px 0px;
+    transition: 1s;
+    i {
+      font-size: 0.625rem;
+    }
+    &:hover {
+      background-color: #83bce9;
+      border: 1px solid #83bce9;
+    }
+  }
+  .top {
+    height: 20px;
+    transition: 1s;
+    border: 1px solid #dfe5e8;
+    border-bottom: none;
+  }
+  .bottom {
+    height: 20px;
+    transition: 1s;
+    border: 1px solid #dfe5e8;
+    border-top: none;
+  }
+  .infor--sub {
+    height: 60px;
+    margin: 10px;
+    h4 {
+      font-weight: 1000;
+    }
+    h6 {
+      font-size: 14px;
+      color: #83bce9;
+    }
+  }
+  .price--money,
+  .price--month {
+    color: white;
+  }
+  .price--money {
+    font-weight: lighter;
+    font-size: 3.125rem;
+    display: block;
+  }
+  .title {
+    height: 90px;
+    transition: 1s;
+    border: 1px solid #dfe5e8;
+    border-bottom: none;
+    border-top: none;
+  }
+  .table {
+    td,li {
+      font-family: "Source Sans Pro", sans-serif;
+      color: #72838e;
+      list-style: none;
+      border: 1px solid #dfe5e8;
+      padding: 10px 0;
+      border-right: none;
+      border-left: none;
+    }
+    .table--lineth {
+      text-decoration: line-through;
+    }
+  }
+  .price__infor {
+    border: 1px solid #dfe5e8;
+    border-bottom: none;
+    .price {
+      padding: 15px 0px;
+    }
+  }
+  .order {
+    border: 1px solid #dfe5e8;
+    border-bottom: none;
+    border-top: none;
+  }
+  .main__content--beginner {
+    flex-basis: 285px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f3f2;
+    transition: 1s;
+    justify-content: center;
+    margin: 30px 0;
+    .price {
+      background-color: #b0de79;
+    }
+    &:hover .title {
+      h2 {
+        padding-top: 0;
+        padding-bottom: 10px;
+      }
+    }
+    &:hover {
+      background-color: white;
+      transition: 1s;
+    }
+
+    &:hover .top {
+      transform: scaleY(2.4);
+    }
+    &:hover .bottom {
+      transform: scaleY(2.4);
+    }
+  }
+  .main__content--advanced {
+    position: relative;
+    flex-basis: 285px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f3f2;
+    transition: 1s;
+    margin: 30px 0;
+    .price {
+      background-color: #7ee0bf;
+    }
+    &:hover .title {
+      h2 {
+        padding-top: 0;
+        padding-bottom: 10px;
+      }
+    }
+    &:hover {
+      background-color: white;
+      transition: 1s;
+    }
+    &:hover .top {
+      transform: scaleY(2.4);
+    }
+    &:hover .bottom {
+      transform: scaleY(2.4);
+    }
+  }
+  .main__content--master {
+    position: relative;
+    flex-basis: 285px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f3f2;
+    transition: 1s;
+    margin: 30px 0;
+    .new {
+      position: absolute;
+      top: -20px;
+      left: 40px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      transition: 1s;
+      background-color: #393d50;
+      color: white;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .new--label {
+        display: inline-block;
+      }
+    }
+    .title {
+      &--best {
+        color: #83bce9;
+        font-size: 16px;
+      }
+    }
+    .price {
+      background-color: #83bce9;
+    }
+    &:hover .title {
+      h2 {
+        padding-top: 0;
+        padding-bottom: 10px;
+      }
+    }
+    &:hover {
+      background-color: white;
+      transition: 1s;
+    }
+    &:hover .top {
+      transform: scaleY(2.4);
+    }
+    &:hover .bottom {
+      transform: scaleY(2.4);
+    }
+    &:hover .new {
+      top: -30px;
+    }
+  }
+  .main__content--insane {
+    flex-basis: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #f0f3f2;
+    transition: 1s;
+    margin: 30px 0;
+    .price {
+      background-color: #a289e8;
+    }
+    &:hover .title {
+      h2 {
+        padding-top: 0;
+        padding-bottom: 10px;
+      }
+    }
+    &:hover {
+      background-color: white;
+      transition: 1s;
+    }
+    &:hover .top {
+      transform: scaleY(2.4);
+    }
+    &:hover .bottom {
+      transform: scaleY(2.4);
+    }
+  }
+}
